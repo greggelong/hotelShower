@@ -2,6 +2,8 @@ html, body {
     margin: 0;
     padding: 0;
     background-color: black;
+    overflow-y: hidden; /* Hide vertical scrollbar */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
   }
   canvas {
     display: block;
