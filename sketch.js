@@ -25,6 +25,7 @@ function setup() {
     console.log("by height");
   }
   pixelDensity(1);
+  noCursor();
   myvideo = createCapture(VIDEO);
   myvideo.size(50, 150);
   myvideo.hide();
